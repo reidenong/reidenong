@@ -12,9 +12,6 @@
 - SUTD Internships
 - Science Center Internships
 
-### 🖥️ Language Preferences :
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=reidenong&theme=dark&card_width=800)](https://github.com/anuraghazra/github-readme-stats)
-
 ### 👋 Contact Me :
 - 📧 reidenong02@gmail.com
 - 🔷 [LinkedIn](https://www.linkedin.com/in/reiden-ong-05b613208)
