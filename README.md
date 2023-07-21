@@ -7,18 +7,14 @@
 - 💻 I'm interested in Competitive Programming and regularly contribute to a blog documenting my journey in CP.
 - ⚡ In my free time, I solve problems on Kattis and play basketball!
 
-
-<br><br/>
 ### 💼 Related Experience :
 - DSO Internship
 - SUTD Internships
 - Science Center Internships
 
-### 🖥️ Language Preferences
+### 🖥️ Language Preferences :
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=reidenong&theme=dark&card_width=800)](https://github.com/anuraghazra/github-readme-stats)
 
-
-<br><br/>
 ### 👋 Contact Me :
 - 📧 reidenong02@gmail.com
 - 🔷 [LinkedIn](https://www.linkedin.com/in/reiden-ong-05b613208)
