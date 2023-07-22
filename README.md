@@ -7,11 +7,6 @@
 - 💻 I'm interested in Competitive Programming and regularly contribute to a blog documenting my journey in CP.
 - ⚡ In my free time, I solve problems on Kattis and play basketball!
 
-### 💼 Related Experience :
-- DSO Internship
-- SUTD Internships
-- Science Center Internships
-
 ### 👋 Contact Me :
 - 📧 reidenong02@gmail.com
 - 🔷 [LinkedIn](https://www.linkedin.com/in/reiden-ong-05b613208)
