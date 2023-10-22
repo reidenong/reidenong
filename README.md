@@ -5,7 +5,7 @@
 - 👨‍🎓 A student currently in the National University of Singapore studying for a Bachelor of Computing in Computer Science.
 - 👁️ My main work experience thus far has mostly been for research, specifically in the fields of Computer Vision through both Machine Learning and Classical paradigms.
 - 💻 I'm interested in Competitive Programming and regularly contribute to a blog documenting my journey in CP.
-- ⚡ In my free time, I solve problems on Kattis and play basketball!
+- ⚡ In my free time, I solve problems on Kattis and play basketball
 
 ### 💼 Main Projects / Repos :
 - [CompetitiveProgramming](https://github.com/reidenong/CompetitiveProgramming), a blog on competitive programming in C++, Java and Python
