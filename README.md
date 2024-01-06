@@ -16,4 +16,4 @@
 
 ### 👋 Contact Me / Find out more :
 - 📧 reidenong02@gmail.com
-- 🔷 [LinkedIn](https://www.linkedin.com/in/reiden-ong-05b613208)
+- 🔷 [LinkedIn](https://www.linkedin.com/in/reidenong)
