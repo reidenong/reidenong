@@ -17,4 +17,3 @@
 ### 👋 Contact Me / Find out more :
 - 📧 reidenong02@gmail.com
 - 🔷 [LinkedIn](https://www.linkedin.com/in/reidenong)
-- 📁 [Resume](https://github.com/reidenong/reidenong/blob/main/ReidenOng_Resume_Jan2024.pdf)
