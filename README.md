@@ -4,8 +4,8 @@
 ### 👨‍💻 About Me :
 - 👨‍🎓 A student currently in the National University of Singapore studying for a Bachelor of Computing in Computer Science.
 - 👁️ My work experience thus far:
-    - **Fullstack Development in NextJS** in CPF Board's Business incubator and Accelerator team.
-    - **Machine Learning Engineering with Visual Transformers** in DSO National Laboratories.
+    - **Fullstack Development in NextJS** in an internship with CPF Board.
+    - **Machine Learning Engineering with Visual Transformers** in an internship with DSO National Laboratories.
     - **Object Detection with Tensorflow** in a research attachment with SUTD.
     - **Acoustic Signal Processing** in a research attachment with CRADLE Laboratories, Science Center.
 - 💻 I'm interested in Competitive Programming and regularly contribute to a blog documenting my journey in CP.
