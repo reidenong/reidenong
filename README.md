@@ -14,7 +14,6 @@
 ### 💼 Main Projects / Repos :
 - [CompetitiveProgramming](https://github.com/reidenong/CompetitiveProgramming), a blog on competitive programming in C++, Java and Python
 - [VisuallySalientText](https://github.com/reidenong/VisuallySalientText), using Deep Learning to identify and extract text saliency from images
-- [ComicPanelSegmentation](https://github.com/reidenong/ComicPanelSegmentation), image segmentation using classical computer vision
 - [Cheatsheets](https://github.com/reidenong/Cheatsheets), a collection of cheatsheets for NUS Modules
 - [MatrixPlusForMA1522](https://github.com/reidenong/MatrixPlusForMA1522), a exam tool for use in NUS MA1522
 
