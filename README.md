@@ -3,7 +3,11 @@
 ---
 ### 👨‍💻 About Me :
 - 👨‍🎓 A student currently in the National University of Singapore studying for a Bachelor of Computing in Computer Science.
-- 👁️ My main work experience thus far has mostly been for research, specifically in the fields of Computer Vision through both Machine Learning and Classical paradigms.
+- 👁️ My work experience thus far:
+    - **Fullstack Development in NextJS** in CPF Board's Business incubator and Accelerator team.
+    - **Machine Learning Engineering with Visual Transformers** in DSO National Laboratories.
+    - **Object Detection with Tensorflow** in a research attachment with SUTD.
+    - **Acoustic Signal Processing** in a research attachment with CRADLE Laboratories, Science Center.
 - 💻 I'm interested in Competitive Programming and regularly contribute to a blog documenting my journey in CP.
 - ⚡ In my free time, I solve problems on Kattis and play basketball
 
