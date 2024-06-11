@@ -2,7 +2,7 @@
 
 ---
 ### 👨‍💻 About Me :
-- 👨‍🎓 A student currently in the National University of Singapore studying for a Bachelor of Computing in Computer Science.
+- 👨‍🎓 A student currently in the National University of Singapore majoring in Computer Science.
 - 👁️ My work experience thus far:
     - **Fullstack Development in NextJS** in an internship with CPF Board.
     - **Machine Learning Engineering with Visual Transformers** in an internship with DSO National Laboratories.
