@@ -15,7 +15,7 @@
 - [CompetitiveProgramming](https://github.com/reidenong/CompetitiveProgramming), a blog on competitive programming in C++, Java and Python
 - [VisuallySalientText](https://github.com/reidenong/VisuallySalientText), using Deep Learning to identify and extract text saliency from images
 - [Cheatsheets](https://github.com/reidenong/Cheatsheets), a collection of cheatsheets for NUS Modules
-- [MatrixPlusForMA1522](https://github.com/reidenong/MatrixPlusForMA1522), a better way to manipulate matrices in MATLAB.
+- [MatrixPlusForMA1522](https://github.com/reidenong/MatrixPlusForMA1522), a package for matrix manipulation in MATLAB.
 
 ### 👋 Contact Me / Find out more :
 - 📧 reidenong02@gmail.com
