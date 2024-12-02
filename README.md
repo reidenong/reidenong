@@ -2,14 +2,14 @@
 
 ---
 ### 👨‍💻 About Me :
-- 👨‍🎓 A student currently in the National University of Singapore majoring in Computer Science.
-- 👁️ My work experience thus far:
+- A student currently in the National University of Singapore majoring in Computer Science.
+- My work experience thus far:
     - **Fullstack Development in NextJS** in an internship with CPF Board.
     - **Machine Learning Engineering with Visual Transformers** in an internship with DSO National Laboratories.
     - **Object Detection with Tensorflow** in a research attachment with SUTD.
     - **Acoustic Signal Processing** in a research attachment with CRADLE Laboratories, Science Center.
-- 💻 I'm interested in Competitive Programming and regularly contribute to a blog documenting my journey in CP.
-- ⚡ In my free time, I solve problems on Kattis and play basketball
+- I'm interested in Competitive Programming and regularly contribute to a blog-ish github repo.
+- In my free time, I solve problems on Kattis and play basketball
 
 ### 💼 Main Projects / Repos :
 - [CompetitiveProgramming](https://github.com/reidenong/CompetitiveProgramming), a blog on competitive programming in C++, Java and Python
