@@ -19,5 +19,4 @@
 - [MatrixPlusForMA1522](https://github.com/reidenong/MatrixPlusForMA1522), a package for matrix manipulation in MATLAB.
 
 ### 👋 Contact Me / Find out more :
-- 📧 reidenong02@gmail.com
 - 🔷 [LinkedIn](https://www.linkedin.com/in/reidenong)
