@@ -3,6 +3,7 @@
 ---
 ### 👨‍💻 About Me :
 - A student currently in the National University of Singapore majoring in Computer Science.
+- Incoming intern @ Google!
 - My work experience thus far:
     - **Fullstack Development in NextJS** in an internship with CPF Board.
     - **Machine Learning Engineering with Visual Transformers** in an internship with DSO National Laboratories.
