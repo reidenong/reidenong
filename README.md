@@ -7,7 +7,7 @@
     - Currently in an internship at Google.
     - **Application Development in C++** in an internship with Seagate Technologies.
     - **Fullstack Development in NextJS** in an internship with CPF Board.
-    - **Machine Learning Engineering with Visual Transformers** in an internship with DSO National Laboratories.
+    - **ML Engineering with Visual Transformers** in an internship with DSO National Laboratories.
     - **Object Detection with Tensorflow** in a research attachment with SUTD.
     - **Acoustic Signal Processing** in a research attachment with CRADLE Laboratories, Science Center.
 - I'm interested in Competitive Programming and regularly contribute to a blog-ish github repo.
