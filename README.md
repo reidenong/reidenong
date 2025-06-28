@@ -4,7 +4,7 @@
 ### 👨‍💻 About Me :
 - A student currently in the National University of Singapore majoring in Computer Science.
 - Life so far:
-    - Currently in an internship at Google.
+    - Currently interning at Google.
     - **Application Development in C++** in an internship with Seagate Technologies.
     - **Fullstack Development in NextJS** in an internship with CPF Board.
     - **ML Engineering with Visual Transformers** in an internship with DSO National Laboratories.
