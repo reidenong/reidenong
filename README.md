@@ -10,12 +10,6 @@
     - **ML Engineering with Visual Transformers** in an internship with DSO National Laboratories.
     - **Object Detection with Tensorflow** in a research attachment with SUTD.
     - **Acoustic Signal Processing** in a research attachment with CRADLE Laboratories, Science Center.
-- (Personal) Hobbies:
-    - Competitive Programming
-    - Programming languages
-    - Keyboard design
-    - Basketball
-    - Diving (SCUBA)
 
 ### Main Projects / Repos :
 - [CompetitiveProgramming](https://github.com/reidenong/CompetitiveProgramming), a blog on competitive programming in C++, Java and Python
