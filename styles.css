@@ -1,0 +1,298 @@
+/* Minimal Times New Roman portfolio with fixed header + theme toggle */
+
+:root {
+  --text: #111;
+  --bg: #f7f7f5;
+  /* softer than pure white */
+
+  --max-width: 760px;
+  /* comfortable reading width (A4-ish) */
+  --pad-x: 24px;
+
+  /* Header spacing control */
+  --header-top: 0px;
+  /* set to 0 to extend header to top */
+  --header-h: 88px;
+  /* updated by JS to real header height */
+  --content-gap: 20px;
+  /* space between header and content */
+
+  --desktop-scale: 0.85;
+
+  /* Nav spacing (compresses on smaller widths) */
+  --nav-gap: clamp(4px, 3vw, 56px);
+}
+
+/* Dark theme overrides (soft charcoal) */
+html[data-theme="dark"] {
+  --text: #e2e2e2;
+  --bg: #1c1c1c;
+}
+
+/* Base font sizing (rem-based typography) */
+html {
+  font-size: 16px; /* baseline */
+  color-scheme: light dark;
+  scrollbar-gutter: stable; /* keeps layout from shifting when scrollbar appears */
+}
+
+/* Desktop: +2px text */
+@media (min-width: 900px) {
+  html {
+    font-size: 18px; /* 16 + 2 */
+  }
+
+  /* Scale header */
+  .header {
+    transform: scale(var(--desktop-scale));
+    transform-origin: top center;
+    width: calc(100% / var(--desktop-scale));
+    margin-left: calc((100% - (100% / var(--desktop-scale))) / 2);
+  }
+
+  /* Scale main content */
+  .main {
+    transform: scale(var(--desktop-scale));
+    transform-origin: top center;
+    width: calc(100% / var(--desktop-scale));
+    margin-left: calc((100% - (100% / var(--desktop-scale))) / 2);
+  }
+
+  /* Compensate header height because transforms don't affect layout */
+  :root {
+    --header-h: calc(88px / var(--desktop-scale));
+  }
+}
+
+/* Responsive adjustments (tighter nav + bigger text) */
+@media (max-width: 520px) {
+  html {
+    font-size: 20px; /* 16 + 4 */
+  }
+
+  :root {
+    --pad-x: 16px;
+    --content-gap: 24px;
+  }
+
+  /* tighter on phones */
+  .nav a {
+    font-size: 17px;
+  }
+
+  /* Prevent date clash on mobile: hide time card */
+  .experience .time-card {
+    display: none;
+  }
+}
+
+/* Link colors */
+a {
+  color: #0645ad; /* classic hyperlink blue */
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+html[data-theme="dark"] a {
+  color: #6ea8ff; /* softer blue on dark */
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.55;
+}
+
+/* Fixed header that is flush to the top */
+.header {
+  position: fixed;
+  top: env(safe-area-inset-top);
+  left: 0;
+  right: 0;
+  height: auto;
+  background: var(--bg);
+  z-index: 1000;
+}
+
+/* Center the header contents to the same column width */
+.header-inner {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 55px var(--pad-x) 14px var(--pad-x);
+}
+
+.site-title {
+  font-size: 32px; /* unchanged per request */
+  font-weight: 500; /* toned down */
+  margin: 0 0 14px 0;
+}
+
+/* Nav: single line, compress spacing (no wrap) */
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  gap: var(--nav-gap);
+}
+
+.nav a {
+  font-size: 20px; /* unchanged per request */
+  white-space: nowrap;
+}
+
+/* Active section */
+.nav a[aria-current="page"] {
+  font-weight: 700; /* toned down from 1000 */
+}
+
+/* Main content column */
+.main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: calc(env(safe-area-inset-top) + var(--header-h) + var(--content-gap))
+    var(--pad-x) 64px var(--pad-x);
+}
+
+/* Paragraph-like defaults */
+p {
+  font-size: 1rem;
+  margin: 0 0 16px 0;
+}
+
+.list {
+  font-size: 1.125rem; /* 18px at base 16px */
+  padding-left: 22px;
+}
+
+/* Blog list */
+
+.blog {
+  margin-top: 32px;
+}
+
+.post {
+  margin-bottom: 36px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.post-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.post-title a {
+  text-decoration: none;
+}
+
+.post-title a:hover {
+  text-decoration: underline;
+}
+
+.post-desc {
+  font-size: 17px;
+  margin: 6px 0 0 0;
+}
+
+.post-date {
+  font-size: 14px;
+  opacity: 0.6;
+  white-space: nowrap;
+}
+
+/* Make ul behave like paragraphs */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Match paragraph typography */
+li {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-left: 1.2em; /* space for bullet */
+  text-indent: -1.2em; /* hanging indent */
+}
+
+li::before {
+  content: "•";
+  margin-right: 0.8em;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 0px;
+  margin-top: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 4px;
+  margin-top: 0px;
+}
+
+/* This keeps your tighter paragraph spacing without hardcoding px font sizes */
+p {
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+
+.experience {
+  position: relative; /* needed for top-right positioning */
+  /* border: 1px solid hsl(0, 0%, 45%); */
+  padding: 8px;
+  margin-bottom: 24px;
+  /* border-radius: 8px; */
+}
+
+.experience-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.details {
+  flex: 1;
+}
+
+.time-card {
+  position: absolute;
+  top: 16px;
+  right: 12px;
+
+  font-size: 13px;
+  line-height: 1;
+  color: #555;
+}
